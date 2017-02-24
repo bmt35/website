@@ -1,5 +1,6 @@
 body {
 	background: black;
+	min-height: 200vh;
 }
 
 footer {
@@ -8,6 +9,13 @@ footer {
 
 .logo {
 	padding-left: 10px;
+}
+
+.thin-text {
+	font-weight:300;
+	background: rgba(96, 125, 139, .4);
+	padding: 40px;
+	border-radius: 10px;
 }
 
 .activator {
