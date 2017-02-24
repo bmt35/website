@@ -1,0 +1,18 @@
+body {
+	background: black;
+}
+
+footer {
+	background: black;
+}
+
+.logo {
+	padding-left: 10px;
+}
+
+.activator {
+	 height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
