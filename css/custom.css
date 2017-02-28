@@ -1,10 +1,10 @@
 body {
-	background: black;
+	background: #795548;
 	min-height: 200vh;
 }
 
 footer {
-	w
+	background: black;
 }
 
 .logo {
@@ -33,4 +33,23 @@ body {
 
   main {
     flex: 1 0 auto;
+  }
+
+  li > div {
+    text-align: left;
+  }
+
+  .collapsible-header :hover {
+    background-color: yellow;
+
+  }
+
+  .collapsible {
+    margin-bottom: 0px;
+    margin-top: 12px;
+
+  }
+
+  .card {
+    background: #e64a19;
   }
