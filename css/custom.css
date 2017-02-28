@@ -1,5 +1,5 @@
 body {
-	background: #795548;
+	background: #37474f;
 	min-height: 200vh;
 }
 
@@ -39,17 +39,17 @@ body {
     text-align: left;
   }
 
-  .collapsible-header :hover {
-    background-color: yellow;
-
-  }
-
   .collapsible {
     margin-bottom: 0px;
     margin-top: 12px;
+    border: 1px solid #000;
 
   }
+ .card{
+  border: 1px solid #000;
+ }
 
-  .card {
-    background: #e64a19;
-  }
+ .btn {
+  padding-left: 10px;
+ }
+
