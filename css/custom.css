@@ -53,3 +53,33 @@ body {
   padding-left: 10px;
  }
 
+ .gpa {
+  background: #4db6ac;
+ }
+#email {
+  padding-right: 10px;
+}
+
+#email:hover{
+  background: white;
+}
+
+#linkedIn{
+  padding-right: 20px;
+}
+
+.fa-envelope:hover {
+  color: #4db6ac;
+}
+
+.fa-envelope{
+  padding-right: 10px;
+}
+
+.fa-linkedin:hover {
+  color: #4db6ac;
+}
+
+.fa-linkedin {
+  padding-right: 20px;
+}
