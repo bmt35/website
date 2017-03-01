@@ -1,8 +1,8 @@
 body {
 	background-image:  url(../images/wood3.jpeg);
 	min-height: 200vh;
-   display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
@@ -10,50 +10,49 @@ footer {
 }
 
 .logo {
-	padding-left: 10px;
+  padding-left: 10px;
 }
 
 .thin-text {
-	font-weight:300;
+	font-weight: 300;
 	background: rgba(96, 125, 139, .4);
 	padding: 40px;
 	border-radius: 10px;
 }
 
 .activator {
-	 height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
+  height: auto; 
+  width: auto; 
+  max-width: 300px; 
+  max-height: 300px;
 }
 
-  main {
-    flex: 1 0 auto;
-  }
+main {
+  flex: 1 0 auto;
+}
 
-  li > div {
-    text-align: left;
-  }
+li > div {
+  text-align: left;
+}
 
-  .collapsible {
-    margin-bottom: 0px;
-    margin-top: 12px;
-    border: 1px solid #000;
-  }
-  
- 
- .card{
+.collapsible {
+  margin-bottom: 0px;
+  margin-top: 12px;
   border: 1px solid #000;
- }
+}
+  
+.card{
+  border: 1px solid #000;
+}
 
- .btn {
+.btn {
   padding-left: 10px;
   background: #37474f; 
- }
+}
 
- .gpa {
+.gpa {
   background: #DB5A23;
- }
+}
 
 .fa-envelope:hover {
   color: #DB5A23;
