@@ -1,6 +1,6 @@
 body {
-	background-image:  url(../images/wood3.jpeg);
-	min-height: 200vh;
+  background-image:  url(../images/wood3.jpeg);
+  min-height: 200vh;
   display: flex;
   flex-direction: column;
 }
@@ -14,10 +14,10 @@ footer {
 }
 
 .thin-text {
-	font-weight: 300;
-	background: rgba(96, 125, 139, .4);
-	padding: 40px;
-	border-radius: 10px;
+  font-weight: 300;
+  background: rgba(96, 125, 139, .4);
+  padding: 40px;
+  border-radius: 10px;
 }
 
 .activator {
