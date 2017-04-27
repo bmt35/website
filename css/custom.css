@@ -1,23 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 body {
-  /*background-image:  url(../images/coffee.jpeg);*/
-  background: #292E37;
+  background-image:  url(../images/city.jpg);
+ /* background: #292E37;*/
   min-height: 200vh;
   display: flex;
   flex-direction: column;
 }
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-
-  main {
-    flex: 1 0 auto;
-  }
 
 footer {
   background: black;
+}
+
+.intern-title {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+
+}
+
+.internship1{
+  background: red;
+}
+
+.internship2 {
+  background: green;
 }
 
 .logo {
@@ -25,13 +31,39 @@ footer {
   font-size: 27px;
 }
 
+#UPMC1 {
+  float: right;
+  margin-right: 100px;
+
+}
+
+#upmc_img, #vba_img  {
+  float: left;
+  margin-left: 100px;
+  padding-top: 47px;
+
+}
+
+#upmc_2 {
+  float: right;
+  margin-right: 100px;
+  padding-top: 47px;
+}
+
+
+#UPMC2 {
+  float: left;
+  margin-left: 100px;
+}
+
 h2 {
   text-align: center;
   font-family: 'Roboto Slab', serif;
 }
 
+
 .material-icons {
-  color: green;
+  color: #00FE00;
 }
 
 .thin-text {
@@ -66,6 +98,10 @@ li > div {
   margin-top: 12px;
   border: 1px solid #000;
 }
+
+#intern1, #intern2 {
+  margin: 10px;
+}
   
 .card{
   border: 1px solid #000;
@@ -82,7 +118,7 @@ li > div {
 }
 
 .fa-envelope:hover {
-  color: #DB5A23;
+  color: #00FE00;
 }
 
 .fa-envelope{
@@ -90,7 +126,7 @@ li > div {
 }
 
 .fa-linkedin:hover {
-  color: #DB5A23;
+  color: #00FE00;
 }
 
 .fa-linkedin {
@@ -107,32 +143,5 @@ li > div {
   margin-bottom: 60px;
 }
 
-/* for Desktop */
-@media ( min-width : 640px ){
-  .timeline > li {
-    overflow: hidden;
-    margin: 0;
-    position: relative;
-  }
-  .timeline-date {
-    width: 110px;
-    float: left;
-    margin-top: 20px;
-  }
-  .timeline-content {
-    width: 75%;
-    float: left;
-    border-left: 3px #e5e5d1 solid;
-    padding-left: 30px;
-  }
-  .timeline-content:before {
-    content: '';
-    width: 12px;
-    height: 12px;
-    background: #6fc173;
-    position: absolute;
-    left: 106px;
-    top: 24px;
-    border-radius: 100%;
-  }
-}
+
+

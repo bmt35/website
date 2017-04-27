@@ -1,0 +1,4 @@
+<?php
+	echo "<p>I interned in the Governance and Controls Department again, this time focusing more on business intelligence work.<br>I created custom Power BI reports and dashboards for management using Power BI, SQL, and DAX.
+              The creation of these dashboards required meeting with users and translating their requests into technical requirements and then meeting with them many more times to get feedback on what I had created for them.<br> Along with getting feedback from users, I also had to transform datasets so that they could be visualized in Power BI. This ranged from cleaning the data and creating aggregate functions to creating relationships between data sets.</p>";
+?>
